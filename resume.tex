@@ -9,31 +9,40 @@
 \begin{document}
 
 \section{Robert Mitchell}
-\hfill robert.mitchell36@gmail.com
-\address{(832) 392-4834}
+\hfill github.com/Ahlkanvorez -- robertm.io
+\address{robert.mitchell36@gmail.com}
 
 \begin{resume}
 
-\section{EMPLOYMENT}
+\section{EXPERIENCE}
     \textbf{ION Geophysical} \\
     \textit{Senior Software Engineer}
     \hfill June 2020 - Present \\
     \textit{Software Engineer}
     \hfill August 2017 - June 2020
 
-    As a Senior Software Engineer at ION Geophysical, I apply Agile \&
-    DevOps principles to coordinate with other teams, modernize our
-    systems and applications, and automate their testing and
-    deployment. I use Ansible, Docker, and Python to enable automated,
-    repeatable deployments both on-premises and in public clouds, such
-    as AWS.
+    \textbf{DevOps \& Cloud} \\
+    I apply Agile \& DevOps principles to coordinate with other teams,
+    improve our flow of work, and share knowledge. I used Ansible,
+    Docker, and Python to automate repeatable test environments
+    on-premises and in public clouds such as AWS.
 
-    Additionally, I design, implement, and maintain applications and
-    services using Test-Driven Development to facilitate the work of
-    Geophysicists, including highly concurrent Erlang applications
-    that interact with RabbitMQ, and Graph \& NoSQL databases; full-
-    stack webapps using NodeJS and ReactJS for custom graph
-    visualizations; and Qt-based C++ applications.
+    \textbf{Functional Programming \& Graphs} \\
+    I created a ReactJS webapp to visualize and traverse geophysical
+    processing history graphs, revealing valuable cost-saving insights
+    about wasteful processing patterns.
+
+    I designed \& implemented an Erlang service to gather history from
+    both RabbitMQ \& CouchDB in real time, and store it in a Neo4j
+    graph database.
+
+    \textbf{Sharing Knowledge} \\
+    I also designed an Erlang service to manage expiration dates for
+    dataset files on disk based on complex parameters, enabling
+    cost-saving disk usage quotas.
+
+    I taught another team of developers Erlang so they could join the
+    project, and I perform code reviews of their contributions. \\
 
 
 \section{EDUCATION}
@@ -46,38 +55,29 @@
     \end{description}
 
 
-\section{PROJECTS}
+\section{SIDE PROJECTS}
     \begin{description}
-        \item \textbf{Project Showcase} \hfill \textbf{ahlk.io/showcase} \\
-          Written in Clojure, deployed on Kubernetes. Showcases my
-          latest projects.
+        \item \textbf{Showcase} \hfill \textbf{robertm.io} \\
+          A showcase of some of my side projects, and my personal blog. \\
+          Written in Clojure with Ring \& Compojure, deployed on Heroku.
 
-        \item \textbf{Product Monitor} \hfill \textbf{ahlk.io/monitor} \\
-          Written in Clojure, deployed on Kubernetes. Get notifications
-          when a product is in stock.
-
-        \item \textbf{Symbolic Algebra} \hfill \textbf{ahlk.io/algebra} \\
-          Designed and implemented a Computer Algebra System that uses
-          abstract patterns to rewrite symbolic data, capable of solving
-          equations and outputting all necessary steps for a solution
-
+        \item \textbf{7GUIs -- Spreadsheet WebApp} \hfill \textbf \\
+          Seven example GUIs including a functional spreadsheet webapp. \\
+          Written in ClojureScript \& Reagent. Live demos are hosted
+          on AWS S3 \& CloudFront. Each GitHub repo links to its demo.
     \end{description}
 
 
 \section{TECHNICAL SKILLS}
     \begin{description}
         \item \textbf{Languages} \hfill \\
-          Clojure, Erlang/OTP, Java, JavaScript, Python, C++
+          Fluent: Clojure \& ClojureScript, JavaScript, Erlang \\
+          Proficient: Python, Java
+        \item \textbf{Web Frameworks} \hfill \\
+          Fluent: Reagent, React \\
+          Proficient: Re-Frame, Express, Node
         \item \textbf{Cloud \& DevOps} \hfill \\
-          AWS, Kubernetes, Docker, Ansible, Jenkins, VirtualBox, Git
-        \item \textbf{Monitoring} \hfill \\
-          Prometheus, Graphite \& StatsD, Grafana
-        \item \textbf{Messaging Services} \hfill \\
-          Kafka, RabbitMQ
-        \item \textbf{Databases} \hfill \\
-          CouchDB, Neo4j
-        \item \textbf{Web Development} \hfill \\
-          React, Express, Node, ClojureScript, Re-Frame, Reagent
+          Ansible, AWS, Docker, Kubernetes, Jenkins, Git
     \end{description}
 
 \end{resume}
